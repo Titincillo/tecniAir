@@ -1,0 +1,79 @@
+.contenedor{
+	width: 80%;
+	margin:0 auto;
+}
+.botones{
+	margin-top: 10px;
+	margin-left: 70%;
+	padding-left: 10px;
+}
+nav ul li{
+	display: inline-flex;
+	border: 1px solid black;
+	padding: 5px;
+	background-color: #8bdae9;
+}
+article img{
+	max-width: 400px;
+	float: right;
+	position: absolute;
+}
+nav ul li a{
+	color:black;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+article .descripcion{
+	display: block;
+}
+.img{
+	max-width: 300px;
+}
+.header{
+	margin-bottom: 50px;
+	margin-top: .5em;
+	background-color: #8bdae9;
+	
+}
+.header img{
+	margin-left: 70px;
+	margin-top:10px;
+}
+.header .titulo{
+	display: inline-block;
+	font-size: 30px;
+}
+.header .subtitulo{
+	font-size: 15px;
+	color:#8ca596;
+	position: absolute;
+    left: 410px;
+    top: 95px;
+}
+.descripcion{
+	width: 50%;
+}
+.contenido{
+	margin-top: 3em;
+
+}
+.row{
+	margin: 0 auto;
+}
+.col-md{
+	margin: 0 auto;
+
+}
+.galeria{
+	max-width: 100%;
+}
+
+.col-md-4 img{
+	display: block;
+}
+.correo{
+	margin-top:70px;
+	margin-left: 4em;
+}
