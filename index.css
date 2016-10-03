@@ -6,6 +6,8 @@
 	margin-top: 10px;
 	margin-left: 70%;
 	padding-left: 10px;
+	text-decoration: none;
+	color:black;
 }
 nav ul li{
 	display: inline-flex;
@@ -77,3 +79,24 @@ article .descripcion{
 	margin-top:70px;
 	margin-left: 4em;
 }
+a{
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
