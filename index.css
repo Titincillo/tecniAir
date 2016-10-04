@@ -4,10 +4,20 @@
 }
 .botones{
 	margin-top: 10px;
-	margin-left: 70%;
+	margin-left: 65%;
 	padding-left: 10px;
 	text-decoration: none;
 	color:black;
+}
+.botones span{
+	margin-left: 1em;
+}
+.botones a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #8bdae9;
+	
+
 }
 nav ul{
 	display: flex;
@@ -99,8 +109,14 @@ a{
 .alto300{
 	height: 300px;
 }
+.ancho200{
+	width: 200px;
+}
+.ancho350{
+	width: 350px;
+}
 
-.ancho300{
+.ancho500{
 	width: 500px;
 }
 .col-md-4{
@@ -110,24 +126,67 @@ a{
 
 .absoluto1{
 	position: absolute;
-    left: -46px;
+    left: -61px;
 }
 
 .absoluto2{
 	position: absolute;
     top: 411px;
-    right: 257px;
+    right: 266px;
 }
 
 .mover-abajo{
 	margin-top: 270px;
 }
+.absoluto{
+	position: absolute;
+}
+.tubo{
+	
+    width: 150px;
+    left: -200px;
+}
+.izquierda{
+	left: 0px;
 
+}
+.arriba{
+	top:630px;
 
+}
+.abajo{
+	top:180px;
 
+}
+.derecha{
+	right: 100px;
+}
+.medio{
+	left: 50%;
+}
+.correo-refri{
+	margin-top: 5px;
+    margin-left: 7em;
+}
+.derecha-1{
+	right: 0px;
+}
+.derecha-150{
+	right: 150px;
+}
+.top-88{
+	top: 88px;
+}
 
-
-
+.izquierda-caja{
+	left: -38px;
+}
+.centro-1{
+	left: 35%;
+}
+.top-2{
+	top: 580px;
+}
 
 
 
