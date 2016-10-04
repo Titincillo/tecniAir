@@ -9,11 +9,19 @@
 	text-decoration: none;
 	color:black;
 }
+nav ul{
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+
+}
 nav ul li{
-	display: inline-flex;
-	border: 1px solid black;
+	display: flex;
+	border: 2px solid black;
 	padding: 5px;
 	background-color: #8bdae9;
+	width: 200px;
+	justify-content: center
 }
 article img{
 	max-width: 400px;
@@ -22,6 +30,8 @@ article img{
 }
 nav ul li a{
 	color:black;
+	
+	
 }
 nav ul li a:hover{
 	text-decoration: none;
@@ -34,7 +44,7 @@ article .descripcion{
 	max-width: 300px;
 }
 .header{
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	margin-top: .5em;
 	background-color: #8bdae9;
 	
@@ -83,11 +93,35 @@ a{
 	color:black;
 }
 
+.alto200{
+	height: 200px;
+}
+.alto300{
+	height: 300px;
+}
 
+.ancho300{
+	width: 500px;
+}
+.col-md-4{
+	padding: 0;
+	margin: 0;
+}
 
+.absoluto1{
+	position: absolute;
+    left: -46px;
+}
 
+.absoluto2{
+	position: absolute;
+    top: 411px;
+    right: 257px;
+}
 
-
+.mover-abajo{
+	margin-top: 270px;
+}
 
 
 
